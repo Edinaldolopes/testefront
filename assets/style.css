@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+header,nav,main,aside,footer {
+    display: flex;
+    margin: 3px;
+}
+
+body {
+    
+    margin: 3px;
+    
+}
+
+header{
+    
+    background-color: #1B2653;
+    box-shadow: 0px 3px 10px  white;
+   
+    
+    flex: 1 1 100vw;
+}
+
+nav{
+    
+    
+    
+    flex: 1 1 100vw;
+
+}
+
+
+
+aside {
+   
+}
+
+footer {
+    
+  
+   
+    
+}
+
+
+:root{
+   --color-primary-1: #FE6613
+   --color-primary-2: #1B2653
+   --color-primary-2: #787878
+
+}  
+
+ 
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    color:  white;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item {
+    margin: 0 40px;
+}
+.nav-link {
+    text-decoration: none;
+    font-size:1,15rem ;
+    color: white;
+    font-weight: 600;
+}
+.login-button button {
+    
+   background-color: #1B2653;
+    padding: 8px 22px;
+    border-radius: 20px ;
+    border-color: white;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.login-button button a {
+    text-decoration: none;
+    color: #787878;
+    
+}
+.mobile-menu-icon {
+   display: none;
+   cursor: pointer;
+
+}
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+    .navbar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-ico button {
+        background-color: transparent;
+        border:none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open{
+        display: block;
+    }
+
+    h1  {
+        
+    }
+}
+
+  img {
+    
+    border-radius: 8px;
+   
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1500px;
+    
+    
+}
+main {
+    border-radius: 8px;
+    margin: 40px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    border: 1px solid;
+    
+    
+}
+ .flex > div {
+    flex:  100px;
+    margin: 10px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    
+}
+.corretores {
+    height: 400px;
+    width: 400px;
+  
+   
+    
+    
+}
+
+.nomecorretores {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #787878;
+    font-size:  15px;
+    list-style: none;
+    
+    
+}
+.pontos {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    list-style: none;
+    
+}
+.telefone {
+    margin-top:10px ;
+    margin-left: 10px;
+    font-size: 10px;
+    list-style: none;
+    color: #FE6613;
+    cursor: pointer;
+    
+    
+    
+}
+.phone-number {
+    display: none;
+    
+}
+.vertel {
+
+    }
+
+
+.fotos185 {
+    width: 185px;
+    height: 185px;
+    margin: 5px;
+    border: none;
+   flex-direction: column;
+    display: flex;
+    
+}
+ .foto185 {
+    width: 185px;
+    height: 185px;
+    margin: px;
+
+    
+    
+    
+ }
+
+
+
+.cpf {
+    height: 400px;
+    width: 400px;
+   
+}
+  
+.regra3 {
+    height: 400px;
+    width: 400px;
+    
+    
+
+}
+
+
+
+.calculator {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin: 100px 0px;
+
+}
+.container {
+    margin-top: 60px;
+   
+}
+ .calculate {
+    margin-top: 70px;
+ }
+ 
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.input-group input {
+    width:150px ;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+p {
+ width: 150px;
+ height: 40px;
+border: solid 1px;
+border-radius: 4px;
+
+}
+
+.texto {
+    
+    margin: 10px;
+}
+#calculate {
+    cursor: pointer;
+}
+
+#calculate:hover  {
+background-color: #FE6613;
+}
+ 
+    
+footer {
+    
+    background-color: #1B2653;
+    box-shadow: 0px 3px 10px  white;
+   
+    flex: auto;
+    flex: 1 1 100vw;
+    height: 60px;
+    
+}
+ .rodape   {
+    margin: 22px;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    
+   
+ }
+
+ 
+
+
+
+
+
+
+
+ .logorodape {
+    
+    margin-left:20px;
+    
+   
+   
+    
+ }
+ .inputcpf {
+    width: 360px;
+    height: 40px;
+   
+   margin: auto;
+   border-radius: 5px;
+   border: solid 1px;
+    
+ }
+
+ .msg {
+    width:360px ;
+    height: 80px;
+    margin: auto;
+    border-radius:5px ;
+ }
+
+ .cpf {
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom: 1rem;
+}
+.btcpf {
+    width:200px ;
+    height: 40px;
+    
+    margin-left: 20px;
+    background-color: #FE6613;
+    border-radius: 5px;
+    border: solid 1px;
+    color: white ;
+    cursor: pointer;
+    
+    
+
+}
+
+.h1cpf  {
+    margin: 15px;
+    margin-right: 130px;
+}
+ 
+.butonfoto {
+    flex-direction: column;
+    border: none;
+    cursor: pointer;
+    color:white;
+    
+    
+}
+.menufotos{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FE6613;
+   justify-content: center;
+   color: white;
+   align-items: center;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.menubaixar {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    background-color: #FE6613;
+   justify-content: center;
+   color: white;
+   align-items: center;
+}
+
+.square {
+    
+    background-image: url('assets/img/imgcasa500px.jpg'); /* Substitua pelo caminho da sua imagem */
+    
+}
+
+
+.zoom-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoomIn 5s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2); /* Ajuste o fator de zoom conforme necessário */
+    }
+}
+
+.containerfoto {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    
+    border-radius: 10px;
+}
+.zoomfoto {
+            width: 130%;
+            height: 130%;
+            object-fit: cover;
+            animation: zoomIn 4s ease-in-out forwards;
+
+}
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2); 
+    }
+}

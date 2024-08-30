@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>este front end</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><button><img src="#" alt="Logotipo"></button></h1>
+            </div>
+             <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">condomínios</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">fórum</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Guia</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Artigos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ferramentas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">cotar Imoveis</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">planos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Entrar</a></li>
+
+                </ul>
+             </div>
+              <div class="login-button">
+                <button><a href="#">CADASTRE-SE</a></button>
+
+              </div>
+
+              <div class="mobile-menu-icon">
+                <button onclick="menuShow()">MENU</button>
+              </div>
+            
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Condomínios</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">fórum</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Guia</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Artigos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Ferramentas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Cotarimóveis</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Planos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Entrar</a></li>
+            </ul>
+
+              <div class="login-button">
+                  <button><a href="#">CADASTRE-SE</a></button>
+
+              </div>
+              
+
+        </div>
+        
+
+    </header>
+
+       <section class="flex">
+
+        
+           
+          <main class="corretores">
+            
+              <main class="fotos185">
+               <img class="foto185"   src="assets/img/foto185.png" alt="">
+                 <li class="nomecorretores">Nome Corretor</li>
+                 <li class="pontos">4.125 pontos</li>
+
+                  <div  class="telefone">
+                    <button class="vertel" id="viewPhoneBtn">Ver Telefone</button>
+                    <div id="phoneNumber" class="phone-number">(99) 99999-9999</div>
+                  </div>
+
+
+
+
+                 
+                 
+              </main >
+             
+             <main class="fotos185">
+               <img class="foto185"   src="assets/img/foto185.png" alt=""> 
+               <li class="nomecorretores">Nome Corretor</li>
+               <li class="pontos">3.250 pontos</li>
+
+               <div  class="telefone">
+                <button id="2viewPhoneBtn">Ver Telefone</button>
+                <div id="2phoneNumber" class="phone-number">(99) 99999-9999</div>
+              </div>
+
+             </main>
+            
+            
+          </main>
+          
+        
+          
+           <main class="cpf">
+
+            
+
+            <h1 class="h1cpf">Mande Uma Mensagen:</h1>
+             
+              <input class="inputcpf" type="text"  id="cpf"  placeholder="digite seu CPF  000.000.000-00 ">
+
+              <input class="inputcpf" type="text"  id="telefone"  placeholder="Digite seu telefone   (99) 99999-9999 ">
+
+              <textarea class="msg" cols="30" rows="10" name="message" id="mensage"
+              placeholder="Digite sua mensagem" required></textarea>
+
+              <button class="btcpf"  id="submitBtn">
+                  ENVIAR MENSAGEN
+              </button>
+            
+             </form>
+           </main>
+
+        
+            
+           <main class="regra3">
+
+            <div class="calculator">
+              <h1>
+               Regra de três 
+          
+              </h1>
+             <div class="container">
+                <div class="input-group">
+                      <input type="number" id="valorA" placeholder="60">
+                         <span class="texto" >&#9866;</span>
+                      <input type="number" id="valorB" placeholder="100">
+                      
+                    </div>
+
+                  <div  class="input-group" >
+                      <input type="number" id="valorC" placeholder="30">
+                          <span class="texto" >&#9866;</span>
+                          <div><p id="resultado">X</p></div>
+          
+          
+                  </div>
+          
+              </div>
+          
+              <button onclick="calcularRegraDe3()"  class="calculate" id="resultado">
+                  Calcular
+              </button>
+          
+          
+          </div>
+             
+           </main>
+
+          
+        
+           
+           <main class="butonfoto">
+           
+             <img src="assets/img/2imgcasa400px.png" >
+
+             <main class="menufotos">
+              <button  class="menufotos"  id="openModalBtn">ABRIR IMAGEM NO MODAL</button>
+              
+             </main>
+           </main>
+
+           <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img src="assets/img/imgcasa500px.jpg" alt="Imagem Exemplo" style="width: 100%; height: auto;">
+            </div>
+        </div>
+          
+
+       
+           
+           <main class="butonfoto">
+           
+
+             <img class="square" src="assets/img/2imgcasa400px.png"  alt="Imagem para Baixar" id="imageToDownload" >
+             <main class="menubaixar"> 
+               
+              <button class="menufotos" id="downloadBtn">Baixar Imagem</button>
+             </main>
+              
+
+           </main> 
+           
+             <main class="containerfoto">
+                 <main class="zoomfoto">
+
+                  <img src="assets/img/imgcasa500px.jpg" alt="Imagem de Exemplo" class="zoom-image">
+                </main>
+            </main>
+            
+             
+              
+
+           
+           
+
+           
+
+       </section>
+
+    <footer>
+      
+    <main class="rodape">
+        Termos          
+    </main>
+
+    <main class="rodape"> 
+       Contato
+    </main>
+
+    <main class="rodape">
+        Sobre
+    </main>
+
+    <main  class="rodape">
+        Copyright 2022.Todos os direitos reservados.
+    </main>
+        
+        <img class="logorodape" src="#" alt="logo">
+      
+    </footer>
+       
+
+     
+   
+
+      
+    <script src="assets/script.js"></script>
+</body>
+</html>
